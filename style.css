@@ -1,0 +1,214 @@
+*{
+    padding: 0 ;
+    margin:  0 ;
+}
+.container{
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 160vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 0px 5px;
+}
+.nav{
+    height:40px;
+    background: rgba(225, 225, 225, .5);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li a{
+    padding-left: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+}
+.nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 10px;
+}
+.nav h6{
+    font-size: smaller;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.material-symbols-outlined{
+    padding-left: 5px;
+    cursor: pointer;
+    padding-right: 10px;
+    border-left: 2px solid black;
+}
+.context{
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    left: 20%;
+    height: 400px;
+    padding: 5px;
+    text-align: right;
+    font-size: 25px;
+}
+.context img{
+    height: 400px;
+    padding: 5px;
+   
+}
+.parentphoto{
+ position: relative;
+ text-align: center;
+ color: white;
+}
+.phototext{
+ position:absolute;
+ top: 30px;
+ left: 5px;
+}
+.signup{
+    position:relative;
+    text-align: center;
+    top: 5px;
+}
+.signup p{
+    font-size: 25px;
+}
+.nut{
+   display: flex;
+   margin-left: 560px;
+}
+.button{
+    margin-left: 80px;
+}
+button{
+    padding:10px 40px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.lov{
+    position: relative;
+    top: 5px;
+    text-align: center;
+    
+}
+.lov h3{
+    padding-top: 40px;
+    font-size: 40px;
+
+}
+.lov p{
+    padding-top: 0px;
+    font-size: 20px;    
+}
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.jn{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.jn a{color: black;}
+.foot{
+   font-size: larger;
+   color: white;
+   background-color: rgb(1, 1, 54);
+   padding: 5px 300px;
+   margin-top: 20px;
+   width: 100%;
+text-align: center;}
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.plus{
+    padding-left: 30px;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    size: 30px;
+}
+.list {
+    padding-left: 30px;
+}
+.hov {
+    text-decoration: none;
+    
+   color: lightgray;
+}
+.hov a:link{
+    text-decoration: none;
+   
+}
+.hov:hover{
+    text-decoration: none;
+    color: rgb(1, 1, 54);
+}
+.hov1 {
+    text-decoration: none;
+    
+   color: lightgray;
+}
+.hov1 a:link{
+    text-decoration: none;
+   
+}
+.hov1:hover{
+    text-decoration: none;
+    color: rgb(1, 1, 54);
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.hov2 {
+    text-decoration: none;
+    
+   color: lightgray;
+}
+.hov2 a:link{
+    text-decoration: none;
+   
+}
+.hov2:hover{
+    text-decoration: none;
+    color: rgb(1, 1, 54);
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.bluebox{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(1, 1, 54);
+   text-align: center;
+   padding: 10px 30px;
+}
+
